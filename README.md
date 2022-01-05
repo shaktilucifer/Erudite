@@ -12,3 +12,11 @@ Initial features
 - Count num books read and calculate num left for challenge 
 - Stats like reading speed and reading density
 - Api to search and add books
+
+Input for getting pages read by date 
+Ex: 01/01/2022 - 228 pages
+    01/02/2022 - 348 pages etc...
+    
+-  Search by ISBN number and choose books that match the page. 
+
+
