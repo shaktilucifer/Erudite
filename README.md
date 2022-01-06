@@ -18,5 +18,5 @@ Ex: 01/01/2022 - 228 pages
     01/02/2022 - 348 pages etc...
     
 -  Search by ISBN number and choose books that match the page. 
-
-
+- Need to add time take in minutes or hours to get granularity in stats
+- daily readaing journal sort like form
