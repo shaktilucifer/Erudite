@@ -1,17 +1,27 @@
-import {useEffect} from 'react';
+import { useEffect } from "react";
 
 export default function InputForm() {
   useEffect(() => {
-   console.log("init");
+    console.log("init");
   });
-  return (<>
-    <label>Book Name:</label>
-    <input type='text' />
-    
-    <label>Hours read:</label>
-    <input type='text' />
+  return (
+    <>
+      <div>
+        <div className="formRow">
+          <label>Book Name: </label>
+          <input type="text" />
+        </div>
+        <div className="formRow">
+          <label>Hours Read: </label>
+          <input type="text" />
+        </div>
+        <div className="formRow">
+          <label>Book pages: </label>
+          <input type="text" />
+        </div>
 
-    <label>Book pages</label>
-    <input type='text' />
-  </>);
+        <button type="submit"> Submit </button>
+      </div>
+    </>
+  );
 }
