@@ -19,4 +19,7 @@ Ex: 01/01/2022 - 228 pages
     
 -  Search by ISBN number and choose books that match the page. 
 - Need to add time take in minutes or hours to get granularity in stats
-- daily readaing journal sort like form
+- daily reading journal sort like form
+
+Worklog:
+01/06 - Added Input form for getting user input
