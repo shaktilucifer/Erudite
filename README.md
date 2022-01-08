@@ -24,7 +24,7 @@ Ex: 01/01/2022 - 228 pages
 Worklog:
 01/06 - Added Input form for getting user input
 01/07 - Added some api and book search bar 
+01/08 - Add hook for api calls and add typescript, eslint support
 TODO:
 - add constants file for api url
-- add hook for api calls
-- add search functionality to return book details
+- Show book details as a list, top 10 maybe ?
