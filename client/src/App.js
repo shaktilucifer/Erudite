@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import InputForm from './InputForm';
+import BookSearchBar from "./BookSearchBar";
 function App() {
   return (
     <>
@@ -10,6 +11,7 @@ function App() {
       <div className="App">
         <header className="App-header">
           <h1>Erudite</h1>
+          <BookSearchBar />
           <InputForm />
         </header>
       </div>
