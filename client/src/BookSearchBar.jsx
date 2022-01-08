@@ -1,15 +1,11 @@
 import { useEffect, useState } from "react";
 import axios from 'axios';
+import { useBooksApi } from "./hooks/useBookApi.ts";
 
 export default function BookSearchBar() {
   const [testPrintBookApi, setTestPrintBookApi] = useState('');
+  const {getBooksByName} = useBooksApi();
   useEffect(() => {
-      axios.get('https://openlibrary.org/books/OL7353617M.json')
-      .then((response) => {
-        console.log(response);
-        console.log(response.data.title);
-        setTestPrintBookApi(response.data.title);
-      })
   });
   return (
     <>
