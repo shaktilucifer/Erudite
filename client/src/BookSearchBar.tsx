@@ -10,8 +10,8 @@ export default function BookSearchBar() {
   useEffect(() => {
   });
 
-  const formatAndGetBooks = () => {
-    
+  const formatAndGetBooks = (searchInput: string) => {
+      return getBookByName(searchInput);
   }
 
   return (
@@ -21,7 +21,7 @@ export default function BookSearchBar() {
           <label>Search books </label>
           <input type="text" value={searchInput} onChange={(e) => setSearchInput(e.target.value)} />
         </div>
-        <button type="submit" onClick={() => getBookByName(searchInput)}> Submit </button>
+        <button type="submit" onClick={() => formatAndGetBooks(searchInput)}> Submit </button>
         <h3>The book searched by api is {testPrintBookApi}</h3>
       </div>
     </>
