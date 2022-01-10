@@ -25,6 +25,7 @@ Worklog:
 01/06 - Added Input form for getting user input
 01/07 - Added some api and book search bar 
 01/08 - Add hook for api calls and add typescript, eslint support
+01/09 - Add constants file and spend time on wireframes and different workflows
 TODO:
 - add constants file for api url
 - Show book details as a list, top 10 maybe ?
