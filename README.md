@@ -26,6 +26,7 @@ Worklog:
 01/07 - Added some api and book search bar 
 01/08 - Add hook for api calls and add typescript, eslint support
 01/09 - Add constants file and spend time on wireframes and different workflows
+01/10 - Display books searched using api as a list and add loading indicator
 TODO:
-- add constants file for api url
-- Show book details as a list, top 10 maybe ?
+-- cut down books shown in UI or use pagination
+-- explore useMemo or try bulk data download
