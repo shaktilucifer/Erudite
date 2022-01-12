@@ -15,9 +15,9 @@ export default function BookSearchBar() {
     getBookByName(searchInput)
       .then((response) => {
         if (response) {
-          console.log(response.data.docs);
           setTestPrintBookApi(searchInput);
           setBookDocuments(response.data.docs);
+          console.log(response.data.docs);
         }
       })
       .finally(() => {
@@ -41,7 +41,7 @@ export default function BookSearchBar() {
         </button>
         <h3>The book searched by api is: </h3>
         {bookDocuments.map((books) => {
-          return <div>{books.title}</div>;
+          return <><div>{books.title}, {books.author_name[0]}</div></>;
         })}
       </div>
     </>
