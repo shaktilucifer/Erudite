@@ -1,1 +1,1 @@
-export const OPENLIBRARY_API = 'http://openlibrary.org';
+export const OPENLIBRARY_API = 'http://openlibrary.org/';
