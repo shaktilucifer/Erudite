@@ -28,6 +28,7 @@ Worklog:
 01/09 - Add constants file and spend time on wireframes and different workflows
 01/10 - Display books searched using api as a list and add loading indicator
 01/11 - Exploring the api for faster info gathering
+01/12 - Exploring usages with bulk download of data
 TODO:
 -- cut down books shown in UI or use pagination
 -- Try bulk download
