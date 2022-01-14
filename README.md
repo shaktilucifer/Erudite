@@ -29,6 +29,8 @@ Worklog:
 01/10 - Display books searched using api as a list and add loading indicator
 01/11 - Exploring the api for faster info gathering
 01/12 - Exploring usages with bulk download of data
+01/13 - Trying out different types of databases to store bulk data 
 TODO:
 -- cut down books shown in UI or use pagination
 -- Try bulk download
+-- Check graph ql, relational db and nosql
