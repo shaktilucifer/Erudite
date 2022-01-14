@@ -20,7 +20,7 @@ export default function InputForm() {
           <input type="text" />
         </div>
 
-        <button type="submit"> Submit </button>
+        <button type="submit">Submit</button>
       </div>
     </>
   );
