@@ -31,6 +31,5 @@ Worklog:
 01/12 - Exploring usages with bulk download of data
 01/13 - Trying out different types of databases to store bulk data 
 TODO:
--- cut down books shown in UI or use pagination
--- Try bulk download
+-- basic form elements without UI .
 -- Check graph ql, relational db and nosql
