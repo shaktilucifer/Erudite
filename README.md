@@ -12,6 +12,23 @@ Initial features
 - Count num books read and calculate num left for challenge 
 - Stats like reading speed and reading density
 - Api to search and add books
+01/27/2022
+- Create an account
+- Add a book name, id to your list collection
+    - To be read
+    - Currently reading
+    - Read
+- Book tracking for each of the books
+    - pages read everyday 
+    - Enter pages read by date 
+    - Show entries per book e.g
+        - 01/27/2022 - page num - 52 
+        - 01/28/2022 - page num - 130
+    - select book from api or add just any name you want and add total number of pages
+    - The books added are considered custom books for your profile
+    - Maybe share your books to others in future
+    - book rating    
+    - Edit the user entered functionalities
 
 Input for getting pages read by date 
 Ex: 01/01/2022 - 228 pages
