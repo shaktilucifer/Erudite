@@ -38,15 +38,23 @@ Ex: 01/01/2022 - 228 pages
 - Need to add time take in minutes or hours to get granularity in stats
 - daily reading journal sort like form
 
+book Challenges: 
+- Add a collection with a list of books
+- Finish reading the book should check it off the list
+- Example: 50 best sci fi books of all time 
+- how many books to read this year ?
+- popsugar challenge
+- Custom challenge adding the books that you would like. including custom books. custom books won't be taken into acccount for communit challenges maybe?
+
 Worklog:
-01/06 - Added Input form for getting user input
-01/07 - Added some api and book search bar 
-01/08 - Add hook for api calls and add typescript, eslint support
-01/09 - Add constants file and spend time on wireframes and different workflows
-01/10 - Display books searched using api as a list and add loading indicator
-01/11 - Exploring the api for faster info gathering
-01/12 - Exploring usages with bulk download of data
-01/13 - Trying out different types of databases to store bulk data 
+- 01/06 - Added Input form for getting user input
+- 01/07 - Added some api and book search bar 
+- 01/08 - Add hook for api calls and add typescript, eslint support
+- 01/09 - Add constants file and spend time on wireframes and different workflows
+- 01/10 - Display books searched using api as a list and add loading indicator
+- 01/11 - Exploring the api for faster info gathering
+- 01/12 - Exploring usages with bulk download of data
+- 01/13 - Trying out different types of databases to store bulk data 
 TODO:
 -- basic form elements without UI .
 -- Check graph ql, relational db and nosql
