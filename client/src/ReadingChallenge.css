@@ -1,0 +1,12 @@
+.formRow {
+  display: flex;
+}
+
+.numBooks {
+  width: 50px;
+  margin: 0 10px;
+}
+
+.submitChallenge {
+  width: 100%;
+}

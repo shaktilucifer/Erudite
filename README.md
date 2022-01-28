@@ -12,6 +12,8 @@ Initial features
 - Count num books read and calculate num left for challenge 
 - Stats like reading speed and reading density
 - Api to search and add books
+
+
 01/27/2022
 - Create an account
 - Add a book name, id to your list collection
@@ -45,6 +47,8 @@ book Challenges:
 - how many books to read this year ?
 - popsugar challenge
 - Custom challenge adding the books that you would like. including custom books. custom books won't be taken into acccount for communit challenges maybe?
+
+
 
 Worklog:
 - 01/06 - Added Input form for getting user input

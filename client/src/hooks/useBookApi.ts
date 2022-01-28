@@ -1,6 +1,6 @@
 import React from 'react';
 import axios from 'axios';
-import { OPENLIBRARY_API } from '../constants/AppConstant';
+import { OPENLIBRARY_API } from '../constants/AppConstant.tsx';
 
 export function useBooksApi() {
     const getBookByName = ((bookName: string) => {

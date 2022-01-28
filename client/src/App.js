@@ -1,7 +1,7 @@
-import logo from "./logo.svg";
 import "./App.css";
 import InputForm from './InputForm';
 import BookSearchBar from "./BookSearchBar.tsx";
+import ReadingChallenge from "./ReadingChallenge.tsx";
 // import BookSearchBar from "./BookSearchBar";
 function App() {
   return (
@@ -11,10 +11,9 @@ function App() {
       </head>
       <div className="App">
         <header className="App-header">
-          <h1>Erudite</h1>
-        {/*  <BookSearchBar /> */}
-         <BookSearchBar/>
-          <InputForm />
+         {/* <BookSearchBar/>
+          <InputForm /> */}
+          <ReadingChallenge />
         </header>
       </div>
     </>
