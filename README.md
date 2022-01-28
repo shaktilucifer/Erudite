@@ -40,14 +40,14 @@ Ex: 01/01/2022 - 228 pages
 - Need to add time take in minutes or hours to get granularity in stats
 - daily reading journal sort like form
 
-book Challenges: 
--[] Add a collection with a list of books
--[] Finish reading the book should check it off the list
--[] Example: 50 best sci fi books of all time 
--[x] how many books to read this year? Added template with ReadingChallenge.tsx
--[] popsugar challenge or the likes?
--[] Custom challenge adding the books that you would like. including custom books. custom books won't be taken into acccount for communit challenges maybe?
--[] Add read only display of books read so far and percentage with progress bar
+### Book Challenges: 
+[ ] Add a collection with a list of books
+[ ] Finish reading the book should check it off the list
+[ ] Example: 50 best sci fi books of all time 
+[x] how many books to read this year? Added template with ReadingChallenge.tsx
+[ ] popsugar challenge or the likes?
+[ ] Custom challenge adding the books that you would like. including custom books. custom books won't be taken into acccount for communit challenges maybe?
+[ ] Add read only display of books read so far and percentage with progress bar
 
 
 
