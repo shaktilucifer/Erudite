@@ -46,13 +46,13 @@ Ex: 01/01/2022 - 228 pages
 ### Book Challenges:
 
 - [ ] Add a collection with a list of books
-- [ ] Finish reading the book should check it off the list
-- [ ] Example: 50 best sci fi books of all time
+- [ ] Finish reading the book should check it off the list. Example: 50 best sci fi books of all time
 - [x] how many books to read this year? Added template with ReadingChallenge.tsx
 - [ ] popsugar challenge or the likes?
 - [ ] Custom challenge adding the books that you would like. including custom books. custom books won't be taken into acccount for communit challenges maybe?
 - [ ] Add read only display of books read so far and percentage with progress bar
-
+- [ ] Header with Reading challenges, books to read and other navigation links
+- [ ] To be read randomizer . list of tbr and it randomizes and gives you a pick
 Worklog:
 
 - 01/06 - Added Input form for getting user input
@@ -63,6 +63,7 @@ Worklog:
 - 01/11 - Exploring the api for faster info gathering
 - 01/12 - Exploring usages with bulk download of data
 - 01/13 - Trying out different types of databases to store bulk data
+- 01/28 - Research different routes and paths.
   TODO:
   - basic form elements without UI .
   - Check graph ql, relational db and nosql
