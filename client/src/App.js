@@ -13,6 +13,7 @@ function App() {
       </head>
       <Routes>
         <Route path='/' element={<ReadingChallenge/>} />
+        <Route path='/bookSearch' element={<BookSearchBar/>} />
       </Routes>
       <div className="App">
         <header className="App-header">
