@@ -4,7 +4,7 @@ import { OPENLIBRARY_API } from '../constants/AppConstant.tsx';
 
 export function useBooksApi() {
     const getBookByName = ((bookName: string) => {
-        return axios.get(`${OPENLIBRARY_API}/search.json?title=${bookName}`)
+        return axios.get(`${OPENLIBRARY_API}search.json?title=${bookName}`)
     });
 
     return {

@@ -1,9 +1,9 @@
 import "./App.css";
-import InputForm from './InputForm';
+import InputForm from "./InputForm";
 import BookSearchBar from "./BookSearchBar.tsx";
 import ReadingChallenge from "./ReadingChallenge.tsx";
-// import BookSearchBar from "./BookSearchBar";
 import { Routes, Route, Link } from "react-router-dom";
+import APP_ROUTES, { RouteRenderer } from "./routeConfig.js";
 
 function App() {
   return (
@@ -11,13 +11,11 @@ function App() {
       <head>
         <title> Erudite </title>
       </head>
-      <Routes>
-        <Route path='/' element={<ReadingChallenge/>} />
-        <Route path='/bookSearch' element={<BookSearchBar/>} />
-      </Routes>
       <div className="App">
         <header className="App-header">
-         {/* <BookSearchBar/>
+        <RouteRenderer appRoutes={APP_ROUTES} />
+
+          {/* <BookSearchBar/>
           <InputForm /> */}
           {/* <ReadingChallenge /> */}
         </header>
