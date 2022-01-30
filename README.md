@@ -64,6 +64,7 @@ Worklog:
 - 01/12 - Exploring usages with bulk download of data
 - 01/13 - Trying out different types of databases to store bulk data
 - 01/28 - Research different routes and paths.
+- 01/29 - Added config for routes 
   TODO:
   - basic form elements without UI .
   - Check graph ql, relational db and nosql
