@@ -4,6 +4,8 @@ import BookSearchBar from "./BookSearchBar.tsx";
 import ReadingChallenge from "./ReadingChallenge.tsx";
 import { Routes, Route, Link } from "react-router-dom";
 import APP_ROUTES, { RouteRenderer } from "./routes/routeConfig.js";
+import { RouteLinks } from "./routes/RouteLinks.tsx";
+import { NavBar } from "./NavBar.tsx";
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
       </head>
       <div className="App">
         <header className="App-header">
+          <NavBar routeConfig={APP_ROUTES}/>
         <RouteRenderer appRoutes={APP_ROUTES} />
 
           {/* <BookSearchBar/>
