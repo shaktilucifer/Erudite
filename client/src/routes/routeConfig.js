@@ -1,8 +1,8 @@
 import React from "react";
-import App from "./App";
-import ReadingChallenge from './ReadingChallenge.tsx';
+import App from "../App";
 import {Route, Routes} from 'react-router-dom';
-import BookSearchBar from "./BookSearchBar.tsx";
+import BookSearchBar from "../BookSearchBar.tsx";
+import ReadingChallenge from '../ReadingChallenge.tsx';
 
 const APP_ROUTES =[
     {

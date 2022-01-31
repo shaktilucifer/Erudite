@@ -3,7 +3,7 @@ import InputForm from "./InputForm";
 import BookSearchBar from "./BookSearchBar.tsx";
 import ReadingChallenge from "./ReadingChallenge.tsx";
 import { Routes, Route, Link } from "react-router-dom";
-import APP_ROUTES, { RouteRenderer } from "./routeConfig.js";
+import APP_ROUTES, { RouteRenderer } from "./routes/routeConfig.js";
 
 function App() {
   return (
