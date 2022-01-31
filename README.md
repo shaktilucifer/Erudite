@@ -51,7 +51,7 @@ Ex: 01/01/2022 - 228 pages
 - [ ] popsugar challenge or the likes?
 - [ ] Custom challenge adding the books that you would like. including custom books. custom books won't be taken into acccount for communit challenges maybe?
 - [ ] Add read only display of books read so far and percentage with progress bar
-- [ ] Header with Reading challenges, books to read and other navigation links
+- [x] Header with Reading challenges, books to read and other navigation links
 - [ ] To be read randomizer . list of tbr and it randomizes and gives you a pick
 Worklog:
 
@@ -65,6 +65,7 @@ Worklog:
 - 01/13 - Trying out different types of databases to store bulk data
 - 01/28 - Research different routes and paths.
 - 01/29 - Added config for routes 
+- 01/30 - Added navbar and moved routes to separate directory
   TODO:
   - basic form elements without UI .
   - Check graph ql, relational db and nosql
