@@ -9,12 +9,12 @@ Book tracking app with stats
 Features:
 Initial features
 
-- Add book name and page count
-- Add book pages read so far along with date
-- Calculate and show reading stats
-- Count num books read and calculate num left for challenge
-- Stats like reading speed and reading density
-- Api to search and add books
+- [ ] Add book name and page count
+- [ ] Add book pages read so far along with date
+- [ ] Calculate and show reading stats
+- [ ] Count num books read and calculate num left for challenge
+- [ ] Stats like reading speed and reading density
+- [x] Api to search and add books
 
 01/27/2022
 
@@ -24,16 +24,16 @@ Initial features
   - Currently reading
   - Read
 - Book tracking for each of the books
-  - pages read everyday
-  - Enter pages read by date
-  - Show entries per book e.g
+  - [ ] pages read everyday
+  - [ ] Enter pages read by date
+  - [ ] Show entries per book e.g
     - 01/27/2022 - page num - 52
     - 01/28/2022 - page num - 130
-  - select book from api or add just any name you want and add total number of pages
-  - The books added are considered custom books for your profile
-  - Maybe share your books to others in future
-  - book rating
-  - Edit the user entered functionalities
+  - [ ] select book from api or add just any name you want and add total number of pages
+  - [ ] The books added are considered custom books for your profile
+  - [ ] Maybe share your books to others in future
+  - [ ] book rating
+  - [ ] Edit the user entered functionalities
 
 Input for getting pages read by date
 Ex: 01/01/2022 - 228 pages
@@ -66,7 +66,9 @@ Worklog:
 - 01/28 - Research different routes and paths.
 - 01/29 - Added config for routes 
 - 01/30 - Added navbar and moved routes to separate directory
+- 01/31 - Research ideas from different book websites and their issues
 - 02/01 - Added custom book detail input form
-  TODO:
-  - basic form elements without UI .
-  - Check graph ql, relational db and nosql
+
+TODO:
+- basic form elements without UI .
+- Check graph ql, relational db and nosql
