@@ -66,6 +66,7 @@ Worklog:
 - 01/28 - Research different routes and paths.
 - 01/29 - Added config for routes 
 - 01/30 - Added navbar and moved routes to separate directory
+- 02/01 - Added custom book detail input form
   TODO:
   - basic form elements without UI .
   - Check graph ql, relational db and nosql
