@@ -34,7 +34,8 @@ Initial features
   - [ ] Maybe share your books to others in future
   - [ ] book rating
   - [ ] Edit the user entered functionalities
-
+  - [ ] Innovative idea. Add a grid which tracks everyday of the year and the book and amount of pages read per day shown with different colors
+ 
 Input for getting pages read by date
 Ex: 01/01/2022 - 228 pages
 01/02/2022 - 348 pages etc...
