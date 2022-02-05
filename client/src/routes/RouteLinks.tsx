@@ -8,7 +8,7 @@ export function RouteLinks({ appRoutes }) {
           <li>
             <Link to={route.path}>
               {route.key}({route.path})
-            </Link>{" "}
+            </Link>
           </li>
         );
       })}
