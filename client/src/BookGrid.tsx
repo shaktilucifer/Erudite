@@ -7,5 +7,10 @@ export function BookGrid() {
         console.log('probably get this when user logs the data in book journal');
     })
 
-    return (<div></div>)
+    const renderDayBlocks = () => {
+        return (<div className='daysBlock'></>);
+    }
+
+
+    return (<div className='daysWrapper'>{renderDayBlocks()}</div>)
 }
