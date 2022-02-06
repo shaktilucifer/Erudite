@@ -71,6 +71,7 @@ Worklog:
 - 02/01 - Added custom book detail input form
 - 02/03 - Research grid based streak tracking mechanisms. calendar based or like the github contribution section ? maybe both?
 - 02/04 - Read a good workflow diagram now that we have separate components
+- 02/05 - Grid for book grid and block design using grid layout
 TODO:
 - basic form elements without UI .
 - Check graph ql, relational db and nosql
