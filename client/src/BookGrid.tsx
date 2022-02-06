@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import './BookGrid.css';
 
 export function BookGrid() {
 
@@ -8,7 +9,7 @@ export function BookGrid() {
     })
 
     const renderDayBlocks = () => {
-        return (<div className='daysBlock'></>);
+        return (<div className='daysBlock'></div>);
     }
 
 

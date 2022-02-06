@@ -1,0 +1,12 @@
+.daysWrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 10px);
+    border-radius: 8px;
+    gap: 4px;
+}
+
+.daysBlock {
+    height: 10px;
+    /* testin */
+    border: 1px solid black;
+}
