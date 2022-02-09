@@ -7,5 +7,5 @@ export function DayBlock() {
     });
 
 
-    return (<div className='daysBlock'></>)
+    return (<div className='daysBlock'></div>);
 }
