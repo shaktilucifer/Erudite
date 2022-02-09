@@ -73,6 +73,7 @@ Worklog:
 - 02/04 - Read a good workflow diagram now that we have separate components
 - 02/05 - Grid for book grid and block design using grid layout
 - 02/07 - use comp instead
+- 02/08 - Researching clean code practices
 TODO:
 - basic form elements without UI .
 - Check graph ql, relational db and nosql
