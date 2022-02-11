@@ -3,6 +3,8 @@ import App from "../App";
 import {Route, Routes} from 'react-router-dom';
 import BookSearchBar from "../BookSearchBar.tsx";
 import ReadingChallenge from '../ReadingChallenge.tsx';
+import BookGrid from '../BookGrid.tsx';
+
 
 const APP_ROUTES =[
     {
@@ -16,6 +18,12 @@ const APP_ROUTES =[
         key: 'READING_CHALLENGE',
         exact: true,
         component: <ReadingChallenge />
+    },
+    {
+        path: '/grid',
+        key: 'BOOK_GRID',
+        exact: true,
+        component: <BookGrid />
     }
 ]
 
