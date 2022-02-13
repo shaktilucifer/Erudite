@@ -41,7 +41,7 @@ export default function BookSearchBar() {
         </button>
         <h3>The book searched by api is: </h3>
         {bookDocuments.map((books) => {
-          return <><div>{books.title}, {books.author_name[0]}</div></>;
+          return <><div>{books.title}, {books?.author_name?.[0]}</div></>;
         })}
       </div>
     </>

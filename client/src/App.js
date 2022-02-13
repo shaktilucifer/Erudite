@@ -13,15 +13,17 @@ function App() {
       <head>
         <title> Erudite </title>
       </head>
+      
       <div className="App">
         <header className="App-header">
           <NavBar routeConfig={APP_ROUTES}/>
-        <RouteRenderer appRoutes={APP_ROUTES} />
 
           {/* <BookSearchBar/>
           <InputForm /> */}
           {/* <ReadingChallenge /> */}
         </header>
+        <RouteRenderer appRoutes={APP_ROUTES} />
+
       </div>
     </>
   );

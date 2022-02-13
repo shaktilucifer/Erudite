@@ -8,7 +8,7 @@ import BookGrid from '../BookGrid.tsx';
 
 const APP_ROUTES =[
     {
-        path: '/',
+        path: '/', 
         key: 'HOME',
         exact: true,
         component: <BookSearchBar />
