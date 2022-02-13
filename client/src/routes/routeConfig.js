@@ -8,22 +8,25 @@ import BookGrid from '../BookGrid.tsx';
 
 const APP_ROUTES =[
     {
-        path: '/', 
+        path: '/',
         key: 'HOME',
         exact: true,
-        component: <BookSearchBar />
+        component: <BookSearchBar />,
+        displayName: 'Home'
     }, 
     {
         path: '/reading-challenge',
         key: 'READING_CHALLENGE',
         exact: true,
-        component: <ReadingChallenge />
+        component: <ReadingChallenge />,
+        displayName: 'Challenges'
     },
     {
         path: '/grid',
         key: 'BOOK_GRID',
         exact: true,
-        component: <BookGrid />
+        component: <BookGrid />,
+        displayName: 'Book Grid'
     }
 ]
 
@@ -32,7 +35,7 @@ export default APP_ROUTES;
 export function RouteRenderer({ appRoutes }) {
     return (
         <Routes>
-            {appRoutes.map((route, index) => {
+            {appRoutes.map((route) => {
                 return <Route key={route.key} 
                             path={route.path}
                             exact={route.exact}
