@@ -76,6 +76,7 @@ Worklog:
 - 02/08 - Researching clean code practices
 - 02/10 - Add book grid to the route
 - 02/11 - Tooltip and day block interface
+- 02/12 - Tooltip presentation. 
 TODO:
 - basic form elements without UI .
 - Check graph ql, relational db and nosql
