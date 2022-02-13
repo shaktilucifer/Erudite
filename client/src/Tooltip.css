@@ -1,0 +1,5 @@
+.tooltip {
+    display: flex;
+    z-index: 10;
+    border-radius: 8px;
+}
