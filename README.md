@@ -77,6 +77,7 @@ Worklog:
 - 02/10 - Add book grid to the route
 - 02/11 - Tooltip and day block interface
 - 02/12 - Tooltip presentation. 
+- 02/13 - Changed navbar to be proper with good UI. Moved route rendering to body tag. ui uplift for book grid. everything in working condition. 
 TODO:
 - basic form elements without UI .
 - Check graph ql, relational db and nosql
