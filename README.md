@@ -78,6 +78,7 @@ Worklog:
 - 02/11 - Tooltip and day block interface
 - 02/12 - Tooltip presentation. 
 - 02/13 - Changed navbar to be proper with good UI. Moved route rendering to body tag. ui uplift for book grid. everything in working condition. 
+- 02/14 - cleanup and  research
 TODO:
 - basic form elements without UI .
 - Check graph ql, relational db and nosql
