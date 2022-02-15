@@ -2,11 +2,6 @@ import React, { useEffect } from 'react';
 import './DayBlock.css';
 
 export function DayBlock() {
-
-    useEffect(() =>{
-    });
-
-
     return (<div className='daysBlock'></div>);
 }
 

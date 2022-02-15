@@ -3,5 +3,6 @@
     grid-template-columns: repeat(auto-fill, 10px);
     border-radius: 8px;
     gap: 4px;
-    background-color: orange;
+    background-color: whitesmoke;
+    padding: 10px;
 }
