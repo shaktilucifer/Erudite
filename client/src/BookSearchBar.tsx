@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { useBooksApi } from "./hooks/useBookApi.ts";
+import './BookSearchBar.css';
 
 export default function BookSearchBar() {
   const [testPrintBookApi, setTestPrintBookApi] = useState("");
