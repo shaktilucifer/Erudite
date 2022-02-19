@@ -80,6 +80,7 @@ Worklog:
 - 02/13 - Changed navbar to be proper with good UI. Moved route rendering to body tag. ui uplift for book grid. everything in working condition. 
 - 02/14 - cleanup and  research
 - 02/17 - clean upcss 
+- 02/18 - Prettify book search bar
 TODO:
 - basic form elements without UI .
 - Check graph ql, relational db and nosql
