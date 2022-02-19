@@ -1,4 +1,25 @@
 .formRow {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+  margin: auto;
+}
+
+.searchLabel {
+  padding-right: 10px;
+}
+
+.bookSearchInput {
+  border: 1px solid;
+  border-radius: 4px;
+  height: 20px;
+}
+
+.bookSearchInput::focus {
+  border: 2px solid;
+}
+
+.searchSubmit {
+  margin-left: 10px; 
 }

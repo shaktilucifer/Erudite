@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { useBooksApi } from "./hooks/useBookApi.ts";
-import './BookSearchBar.css';
+import "./BookSearchBar.css";
 
 export default function BookSearchBar() {
   const [testPrintBookApi, setTestPrintBookApi] = useState("");
@@ -28,21 +28,33 @@ export default function BookSearchBar() {
 
   return (
     <>
-      <div>
+      <div className="formRowWrapper">
         <div className="formRow">
-          <label>Search books </label>
+          <label className="searchLabel">Search books</label>
           <input
+            className="bookSearchInput"
             type="text"
             value={searchInput}
             onChange={(e) => setSearchInput(e.target.value)}
           />
+          <button
+            className="searchSubmit"
+            type="submit"
+            onClick={() => formatAndGetBooks(searchInput)}
+          >
+            {!isLoading ? "Submit" : "Processing"}
+          </button>
         </div>
-        <button type="submit" onClick={() => formatAndGetBooks(searchInput)}>
-          {!isLoading ? "Submit" : "Processing"}
-        </button>
+
         <h3>The book searched by api is: </h3>
         {bookDocuments.map((books) => {
-          return <><div>{books.title}, {books?.author_name?.[0]}</div></>;
+          return (
+            <>
+              <div>
+                {books.title}, {books?.author_name?.[0]}
+              </div>
+            </>
+          );
         })}
       </div>
     </>
