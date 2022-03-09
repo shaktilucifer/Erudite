@@ -27,6 +27,13 @@ const APP_ROUTES =[
         exact: true,
         component: <BookGrid />,
         displayName: 'Book Grid'
+    },
+    {
+        path: '/newGrid',
+        key: 'BOOK_GRID',
+        exact: true,
+        component: <BookGrid />,
+        displayName: 'Book Grid'
     }
 ]
 
