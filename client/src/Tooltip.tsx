@@ -1,10 +1,13 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 
-export function ToolTip() {
-
+export function ToolTip({title, description}) {
+    const [visible, setVisible] = useState();
     useEffect(() =>{
-    });
+    }, []);
 
 
-    return (<div className='tooltip'></div>);
+    return (<div className='tooltip'>
+            <p>{title}</p>
+            <p>{description}</p>
+        </div>);
 }
