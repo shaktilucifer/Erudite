@@ -83,4 +83,4 @@ Worklog:
 - 02/18 - Prettify book search bar
 TODO:
 - basic form elements without UI .
-- Check graph ql, relational db and nosql
+- adding charts using high charts or maybe d3.js if fun
