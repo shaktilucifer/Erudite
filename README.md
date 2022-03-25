@@ -81,6 +81,7 @@ Worklog:
 - 02/14 - cleanup and  research
 - 02/17 - clean upcss 
 - 02/18 - Prettify book search bar
+- 03/24 - graphql research and tried to use context
 TODO:
 - basic form elements without UI .
 - adding charts using high charts or maybe d3.js if fun
