@@ -27,8 +27,8 @@ Initial features
   - [ ] pages read everyday
   - [ ] Enter pages read by date
   - [ ] Show entries per book e.g
-    - 01/27/2022 - page num - 52
-    - 01/28/2022 - page num - 130
+      - 01/27/2022 - page num - 52
+      - 01/28/2022 - page num - 130
   - [ ] select book from api or add just any name you want and add total number of pages
   - [ ] The books added are considered custom books for your profile
   - [ ] Maybe share your books to others in future
@@ -82,6 +82,7 @@ Worklog:
 - 02/17 - clean upcss 
 - 02/18 - Prettify book search bar
 - 03/24 - graphql research and tried to use context
+- 03/25 - Reseach adding redux store to maintain books state fro challenges  
 TODO:
 - basic form elements without UI .
 - adding charts using high charts or maybe d3.js if fun
