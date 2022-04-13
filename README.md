@@ -82,7 +82,8 @@ Worklog:
 - 02/17 - clean upcss 
 - 02/18 - Prettify book search bar
 - 03/24 - graphql research and tried to use context
-- 03/25 - Reseach adding redux store to maintain books state fro challenges  
+- 03/25 - Research adding redux store to maintain books state fro challenges  
+- 04/11 - research memento pattern for rolling back changes 
 TODO:
 - basic form elements without UI .
 - adding charts using high charts or maybe d3.js if fun
