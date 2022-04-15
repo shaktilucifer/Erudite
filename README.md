@@ -85,5 +85,5 @@ Worklog:
 - 03/25 - Research adding redux store to maintain books state fro challenges  
 - 04/11 - research memento pattern for rolling back changes 
 TODO:
-- basic form elements without UI .
+
 - adding charts using high charts or maybe d3.js if fun
