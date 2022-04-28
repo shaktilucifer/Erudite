@@ -84,6 +84,4 @@ Worklog:
 - 03/24 - graphql research and tried to use context
 - 03/25 - Research adding redux store to maintain books state fro challenges  
 - 04/11 - research memento pattern for rolling back changes 
-TODO:
-
-- adding charts using high charts or maybe d3.js if fun
+- 04/27 - interesting ideas on different reading challenges like read 15 days in a row etc.. 
