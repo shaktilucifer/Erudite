@@ -57,7 +57,8 @@ Ex: 01/01/2022 - 228 pages
 - [x] Header with Reading challenges, books to read and other navigation links
 - [ ] To be read randomizer . list of tbr and it randomizes and gives you a pick
 - [ ] Research graph ql
-Worklog:
+
+### Worklog:
 
 - 01/06 - Added Input form for getting user input
 - 01/07 - Added some api and book search bar
@@ -84,6 +85,7 @@ Worklog:
 - 02/14 - cleanup and  research
 - 02/17 - clean upcss 
 - 02/18 - Prettify book search bar
+- 05/12 - Researching cool ideas related to tracking stats, be able to add books read in current year
 TODO:
 - basic form elements without UI .
 - Check graph ql, relational db and nosql
