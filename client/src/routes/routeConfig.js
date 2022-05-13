@@ -1,5 +1,5 @@
 import React from "react";
-import App from "../App";
+import App from "../App.tsx";
 import {Route, Routes} from 'react-router-dom';
 import BookSearchBar from "../BookSearchBar.tsx";
 import ReadingChallenge from '../ReadingChallenge.tsx';
