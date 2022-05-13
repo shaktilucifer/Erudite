@@ -35,6 +35,8 @@ Initial features
   - [ ] book rating
   - [ ] Edit the user entered functionalities
   - [ ] Innovative idea. Add a grid which tracks everyday of the year and the book and amount of pages read per day shown with different colors
+  - [ ] Clock to start and stop reading period, hours read, pages read
+  - [ ] Sync kindle or some other e ink reader? (Moonshot)
  
 Input for getting pages read by date
 Ex: 01/01/2022 - 228 pages
@@ -54,6 +56,7 @@ Ex: 01/01/2022 - 228 pages
 - [ ] Add read only display of books read so far and percentage with progress bar
 - [x] Header with Reading challenges, books to read and other navigation links
 - [ ] To be read randomizer . list of tbr and it randomizes and gives you a pick
+- [ ] Research graph ql
 Worklog:
 
 - 01/06 - Added Input form for getting user input
