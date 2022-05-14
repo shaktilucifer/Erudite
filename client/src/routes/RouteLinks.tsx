@@ -6,9 +6,7 @@ export function RouteLinks({ appRoutes }) {
       {appRoutes.map((route, index) => {
         return (
           <li>
-            <Link to={route.path}>
-              {route.displayName}
-            </Link>
+            <Link to={route.path}>{route.displayName}</Link>
           </li>
         );
       })}
