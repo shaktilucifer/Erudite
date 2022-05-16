@@ -18,7 +18,6 @@ export default function BookSearchBar() {
         if (response) {
           setTestPrintBookApi(searchInput);
           setBookDocuments(response.data.docs);
-          console.log(response.data.docs);
         }
       })
       .finally(() => {
