@@ -1,5 +1,5 @@
 import { RouteLinks } from "./routes/RouteLinks.tsx";
-import './NavBar.css';
+import "./NavBar.css";
 
 export function NavBar({ routeConfig }) {
   return (

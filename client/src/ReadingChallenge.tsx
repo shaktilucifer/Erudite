@@ -1,6 +1,5 @@
-
 import { useEffect } from "react";
-import './ReadingChallenge.css';
+import "./ReadingChallenge.css";
 
 export default function ReadingChallenge() {
   useEffect(() => {
@@ -12,9 +11,12 @@ export default function ReadingChallenge() {
         <h1>Reading challenge</h1>
         <div className="formRow">
           <label>I want to read</label>
-          <input className="numBooks" type="text" /><label>books</label>
+          <input className="numBooks" type="text" />
+          <label>books</label>
         </div>
-        <button className="submitChallenge" type="submit">Submit</button>
+        <button className="submitChallenge" type="submit">
+          Submit
+        </button>
       </div>
     </>
   );
