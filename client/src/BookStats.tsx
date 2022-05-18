@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 
-export function BookStats({pagesPerhour, pagesRead}: BookStatsProps) {
+export function BookStats({pagesPerhour, pagesRead, bookName}: BookStatsProps) {
     return (<div className='bookStats'></div>);
 }
 
