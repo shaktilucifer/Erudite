@@ -90,7 +90,3 @@ Ex: 01/01/2022 - 228 pages
 - 04/11 - research memento pattern for rolling back changes 
 - 04/27 - interesting ideas on different reading challenges like read 15 days in a row etc.. 
 - 05/12 - Researching cool ideas related to tracking stats, be able to add books read in current year
-
-TODO:
-- basic form elements without UI .
-- Check graph ql, relational db and nosql
