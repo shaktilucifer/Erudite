@@ -1,9 +1,6 @@
 import { useEffect } from "react";
 
 export default function InputForm() {
-  useEffect(() => {
-    console.log("init");
-  });
   return (
     <>
       <div>
