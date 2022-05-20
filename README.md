@@ -13,7 +13,7 @@ Initial features
 - [ ] Add book pages read so far along with date
 - [ ] Calculate and show reading stats
 - [ ] Count num books read and calculate num left for challenge
-- [ ] Stats like reading speed and reading density
+- [x] Stats like reading speed and reading density
 - [x] Api to search and add books
 
 01/27/2022
@@ -56,7 +56,7 @@ Ex: 01/01/2022 - 228 pages
 - [ ] Add read only display of books read so far and percentage with progress bar
 - [x] Header with Reading challenges, books to read and other navigation links
 - [ ] To be read randomizer . list of tbr and it randomizes and gives you a pick
-- [ ] Research graph ql
+- [x] Research graph ql
 
 ### Worklog:
 
