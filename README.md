@@ -29,12 +29,12 @@ Initial features
   - [ ] Show entries per book e.g
       - 01/27/2022 - page num - 52
       - 01/28/2022 - page num - 130
-  - [ ] select book from api or add just any name you want and add total number of pages
+  - [ ] Select book from api or add just any name you want and add total number of pages
   - [ ] The books added are considered custom books for your profile
   - [ ] Maybe share your books to others in future
-  - [ ] book rating
+  - [ ] Book rating
   - [ ] Edit the user entered functionalities
-  - [ ] Innovative idea. Add a grid which tracks everyday of the year and the book and amount of pages read per day shown with different colors
+  - [ ] Add a grid which tracks everyday of the year and the book and amount of pages read per day shown with different colors
   - [ ] Clock to start and stop reading period, hours read, pages read
   - [ ] Sync kindle or some other e ink reader? (Moonshot)
  
