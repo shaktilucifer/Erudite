@@ -3,6 +3,11 @@
 Book tracking app with stats
 
 ## Tech stack
+01/01/2024:
+- [ ] Book name, page started, page ended, date
+- [ ] Calculate page count, show page count on tooltip
+- [ ] Grid layout for showing streaks
+- [ ] Check ISBN api integration
 
 01/01/2022 Nodejs and React
 
