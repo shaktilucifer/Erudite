@@ -1,1 +1,0 @@
-export const OPENLIBRARY_API = 'http://openlibrary.org/';
