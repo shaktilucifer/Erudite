@@ -1,13 +1,15 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-
+  let [data, setData] = useState();
+  data = [
+	{name: "Mark_of_Athena", pageInfo: {start_end: [113, 165]}}, 
+	{name: "Mark_of_Athena", pageInfo: {start_end: [166, 219]}} 
+  	];
   return (
     <>
-    	<div><h1>Erudite!</h1></div>
+    	{data.map((d) => <div>{d.name}: {`${d.pageInfo.start_end[0]} - ${d.pageInfo.start_end[1]}` }</div>)}
     </>
   )
 }
