@@ -7,9 +7,6 @@ Book tracking app with stats
 - [ ] Book name, page started, page ended, date
 - [ ] Calculate page count, show page count on tooltip
 - [ ] Grid layout for showing streaks
-- [ ] Check ISBN api integration
-
-01/01/2022 Nodejs and React
 
 Features:
 Initial features
@@ -20,9 +17,7 @@ Initial features
 - [ ] Count num books read and calculate num left for challenge
 - [x] Stats like reading speed and reading density
 - [x] Api to search and add books
-
-01/27/2022
-
+- [ ] 
 - Create an account
 - Add a book name, id to your list collection
   - To be read
