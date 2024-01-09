@@ -12,9 +12,13 @@ interface PageInfo {
   end: number;
 }
 
-export function Erudite() {
-  let [data, setData] = useState<DailyBookData[]>([]);
+interface EruditeProps {
+  dailyBookData?: DailyBookData[]; // make this unoptional
+}
 
+export function Erudite({dailyBookData = []}: EruditeProps) {
+  let [data, setData] = useState<DailyBookData[]>(dailyBookData);
+  // test data
   useEffect(() => {
     setData([
       { id: "1", name: "Mark_of_Athena", pageInfo: { start: 113, end: 165 } },
