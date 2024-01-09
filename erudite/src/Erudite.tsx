@@ -1,13 +1,13 @@
 import { useEffect, useState } from "react";
 import "./Erudite.css";
 
-interface DailyBookData {
+export interface DailyBookData {
   id: string | number;
   name: string;
   pageInfo: PageInfo;
 }
 
-interface PageInfo {
+export interface PageInfo {
   start: number;
   end: number;
 }
