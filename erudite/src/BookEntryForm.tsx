@@ -23,8 +23,7 @@ export function BookDataEntryForm({}) {
         })
       }
     />
-    Start:{" "}
-    <input key={"start_page"} type="text" value={bookInfo?.pageInfo.start} />
+    Start:<input key={"start_page"} type="text" value={bookInfo?.pageInfo.start} />
     End: <input key={"end_page"} type="text" value={bookInfo?.pageInfo.end} />
   </>;
 }
