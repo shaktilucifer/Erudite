@@ -13,8 +13,7 @@ export function BookDataEntryForm({}: BookDataEntryFormProps) {
 
   return (
     <>
-      {/* // add on change for these  */}
-      Book name:{" "}
+      Book name:
       <input
         key={"book_name"}
         type="text"
@@ -26,8 +25,27 @@ export function BookDataEntryForm({}: BookDataEntryFormProps) {
         }
       />
       Start:
-      <input key={"start_page"} type="text" value={bookInfo?.pageInfo.start} />
-      End: <input key={"end_page"} type="text" value={bookInfo?.pageInfo.end} />
+      <input
+        key={"start_page"}
+        type="text"
+        value={bookInfo?.pageInfo.start}
+        onChange={(e) =>
+          setBookInfo((prev: DailyBookData) => {
+            return { ...prev, pageInfo: {...prev.pageInfo, start: +e.target.value} };
+          })
+        }
+      />
+      End:{" "}
+      <input
+        key={"end_page"}
+        type="text"
+        value={bookInfo?.pageInfo.end}
+        onChange={(e) =>
+          setBookInfo((prev: DailyBookData) => {
+            return { ...prev, pageInfo: {...prev.pageInfo, end: +e.target.value} };
+          })
+        }
+      />
     </>
   );
 }
