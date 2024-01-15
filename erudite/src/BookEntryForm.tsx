@@ -15,8 +15,8 @@ export function BookDataEntryForm({onSubmit}: BookDataEntryFormProps) {
 
   const onFormSubmit = useCallback(() => {
       onSubmit(bookInfo);
-      return
-  }, [])
+      return bookInfo;
+  }, [bookInfo])
 
   return (
     <>
@@ -42,7 +42,7 @@ export function BookDataEntryForm({onSubmit}: BookDataEntryFormProps) {
           })
         }
       />
-      End:{" "}
+      End:
       <input
         key={"end_page"}
         type="text"
@@ -53,6 +53,7 @@ export function BookDataEntryForm({onSubmit}: BookDataEntryFormProps) {
           })
         }
       />
+      <button  type="submit" onClick={onFormSubmit} />
     </>
   );
 }
