@@ -1,15 +1,22 @@
-import { useState } from "react";
+import { useCallback, useState } from "react";
 import "./BookEntryForm.less";
 import { DailyBookData } from "./Erudite";
 
-export interface BookDataEntryFormProps {}
+export interface BookDataEntryFormProps {
+  onSubmit: (dailyBookData: DailyBookData) => void;
+}
 
-export function BookDataEntryForm({}: BookDataEntryFormProps) {
+export function BookDataEntryForm({onSubmit}: BookDataEntryFormProps) {
   const [bookInfo, setBookInfo] = useState<DailyBookData>({
     name: "",
     id: 0,
     pageInfo: { start: 0, end: 0 },
   });
+
+  const onFormSubmit = useCallback(() => {
+      onSubmit(bookInfo);
+      return
+  }, [])
 
   return (
     <>
