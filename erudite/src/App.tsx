@@ -1,13 +1,24 @@
-import { useState } from "react";
 import "./App.css";
-import { Erudite } from "./Erudite.tsx";
+import { DailyBookData, Erudite } from "./Erudite.tsx";
 import { BookDataEntryForm } from "./BookEntryForm.tsx";
+import { CreateBook } from "./CreateBook.tsx";
 
 function App() {
   return (
     <>
       <Erudite />
-      <BookDataEntryForm />
+      <br />
+      <br />
+      <CreateBook />
+      <br />
+      <br />
+      <BookDataEntryForm
+        onSubmit={(dailyBookData: DailyBookData) =>
+          "not implemented" + dailyBookData
+        }
+      />
+      <br />
+      <br />
     </>
   );
 }

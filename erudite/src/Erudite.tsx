@@ -24,7 +24,7 @@ export function Erudite({dailyBookData = []}: EruditeProps) {
       { id: "1", name: "Mark_of_Athena", pageInfo: { start: 113, end: 165 } },
       { id: "1", name: "Mark_of_Athena", pageInfo: { start: 166, end: 219 } },
     ]);
-  });
+  }, []);
   return (
     <>
       {data.map((d) => (
