@@ -11,6 +11,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "localforage": "^1.10.0",
+    "match-sorter": "^6.3.3",
+    "react-router-dom": "^6.21.2",
+    "sort-by": "^0.0.2"
   }
 }
