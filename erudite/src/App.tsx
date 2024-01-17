@@ -6,19 +6,13 @@ import { CreateBook } from "./CreateBook.tsx";
 function App() {
   return (
     <>
-      <Erudite />
-      <br />
-      <br />
-      <CreateBook />
-      <br />
-      <br />
-      <BookDataEntryForm
+      <div><Erudite /></div>
+      <div><CreateBook /></div>
+      <div><BookDataEntryForm
         onSubmit={(dailyBookData: DailyBookData) =>
           "not implemented" + dailyBookData
         }
-      />
-      <br />
-      <br />
+      /></div>
     </>
   );
 }
