@@ -5,6 +5,7 @@ const express = require("express");
 const PORT = process.env.PORT || 3001;
 
 const app = express();
+app.use(express.json());
 
 const books = [
   {
@@ -27,21 +28,23 @@ app.get("/getAllBooks", (req, res) => {
 });
 
 app.get("/getBookById", (req, res) => {
-  const filteredBooks = books.filter((book) => book.id === req.query.id);
+  const filteredBooks = books.filter((book) => book.id === +req.query.id);
   //TODO get from db
 
   res.json({ books: filteredBooks });
 });
 
 app.get("/getBookByName", (req, res) => {
-  const filteredBooks = books.filter((book) => book.name === req.query.name);
-  // get from db
-
+    // TODO get from db
+  const filteredBooks = books.filter((book) => book.name === +req.query.name);
   res.json({ books: filteredBooks });
 });
 
-app.put("/createBook", (req, res) => {
-  books.push(req.book);
+app.post("/createBook", (req, res) => {
+//   curl -d '{"MyKey":"My Value"}' -H "Content-Type: application/json" http://127.0.0.1:3001/
+// {"MyKey":"My Value"}
+  console.log(req);
+  books.push(req.body.book);
   // save to db
   res.json({ test: "book created!" });
 });
