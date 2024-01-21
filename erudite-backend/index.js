@@ -21,20 +21,20 @@ const books = [
   },
 ];
 
-app.get("/get-books", (req, res) => {
-  // get from db
+app.get("/getAllBooks", (req, res) => {
+  //TODO get from db
   res.json({ books });
 });
 
 app.get("/getBookById", (req, res) => {
-  const filteredBooks = books.filter((book) => book.id === req.id);
-  // get from db
+  const filteredBooks = books.filter((book) => book.id === req.query.id);
+  //TODO get from db
 
   res.json({ books: filteredBooks });
 });
 
 app.get("/getBookByName", (req, res) => {
-  const filteredBooks = books.filter((book) => book.name === req.name);
+  const filteredBooks = books.filter((book) => book.name === req.query.name);
   // get from db
 
   res.json({ books: filteredBooks });
