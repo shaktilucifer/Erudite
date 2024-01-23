@@ -5,6 +5,7 @@ export interface DailyBookData {
   id: string | number;
   name: string;
   pageInfo: PageInfo;
+  date: string;
 }
 
 export interface PageInfo {
@@ -21,8 +22,8 @@ export function Erudite({dailyBookData = []}: EruditeProps) {
   // test data
   useEffect(() => {
     setData([
-      { id: "1", name: "Mark_of_Athena", pageInfo: { start: 113, end: 165 } },
-      { id: "1", name: "Mark_of_Athena", pageInfo: { start: 166, end: 219 } },
+      { id: "1", name: "Mark_of_Athena", pageInfo: { start: 113, end: 165 }, date: '11/11/2019' },
+      { id: "1", name: "Mark_of_Athena", pageInfo: { start: 166, end: 219 }, date: '11/12/2022' },
     ]);
   }, []);
   return (
