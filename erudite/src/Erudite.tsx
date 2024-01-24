@@ -18,14 +18,9 @@ interface EruditeProps {
 }
 
 export function Erudite({dailyBookData = []}: EruditeProps) {
-  let [data, setData] = useState<DailyBookData[]>(dailyBookData);
-  // test data
-  useEffect(() => {
-
-  }, []);
   return (
     <>
-      {data.map((d) => (
+      {dailyBookData.map((d: DailyBookData) => (
         <div>
           {d.name}: {`${d.pageInfo.start} - ${d.pageInfo.end}`}
         </div>
