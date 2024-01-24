@@ -17,9 +17,14 @@ const someGlobalMock: Book[] = [{
 
 export function useCreateBook(){
     return useCallback((book: Book) => {
-            // do call to save book
-            someGlobalMock.push(book);
+            return createBookApi().then((book: Book[]) => {
+                return book;
+            })
     }, []);
+}
+
+function createBookApi(): Promise<Book[]> {
+    return new Promise((resolve, reject) => resolve(someGlobalMock))
 }
 
 export function getGlobalBookStore() {
