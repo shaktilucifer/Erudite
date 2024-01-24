@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import "./Erudite.css";
 
 export interface DailyBookData {
@@ -20,7 +19,7 @@ interface EruditeProps {
 export function Erudite({dailyBookData = []}: EruditeProps) {
   return (
     <>
-      {dailyBookData.map((d: DailyBookData) => (
+      {dailyBookData?.map((d: DailyBookData) => (
         <div>
           {d.name}: {`${d.pageInfo.start} - ${d.pageInfo.end}`}
         </div>

@@ -11,6 +11,7 @@ export function BookDataEntryForm({onSubmit}: BookDataEntryFormProps) {
     name: "",
     id: 0,
     pageInfo: { start: 0, end: 0 },
+    date: ''
   });
 
   const onFormSubmit = useCallback(() => {
