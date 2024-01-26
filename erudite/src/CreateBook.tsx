@@ -3,12 +3,18 @@
 import React, { useState } from "react";
 import "./CreateBook.less";
 
-interface CreateBookProps {}
+interface CreateBookProps {
+  onSubmit: ({bookName, page_count}:{bookName: string, page_count: number}) => void;
+}
 
-export function CreateBook({}: CreateBookProps) {
+export function CreateBook({onSubmit}: CreateBookProps) {
   const [bookName, setBookName] = useState("");
-  const [page_count, setPageCount] = useState<number>();
+  const [page_count, setPageCount] = useState<number>(0);
   
+
+  const onButtonSubmit = () => {
+    onSubmit({bookName, page_count});
+  };
 
   return (
     <>
@@ -26,6 +32,7 @@ export function CreateBook({}: CreateBookProps) {
         value={page_count}
         onChange={(e) => setPageCount(+e.target.value || 0)}
       />
+      <button type="submit" onClick={onButtonSubmit}>Submit</button>
     </>
   );
 }
