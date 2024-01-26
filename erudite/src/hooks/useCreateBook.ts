@@ -1,6 +1,6 @@
 import { useCallback } from "react";
 
-interface Book {
+export interface Book {
     name: string;
     id: number | string;
     pages: number;

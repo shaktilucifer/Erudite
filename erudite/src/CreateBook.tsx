@@ -2,18 +2,25 @@
 // select books from this to be shown in book Entry form
 import React, { useState } from "react";
 import "./CreateBook.less";
+import { Book } from "./hooks/useCreateBook";
 
 interface CreateBookProps {
-  onSubmit: ({bookName, page_count}:{bookName: string, page_count: number}) => void;
+  onSubmit: (book: Book) => void;
 }
 
-export function CreateBook({onSubmit}: CreateBookProps) {
+export function CreateBook({ onSubmit }: CreateBookProps) {
   const [bookName, setBookName] = useState("");
+  const [author, setAuthor] = useState("");
   const [page_count, setPageCount] = useState<number>(0);
-  
 
   const onButtonSubmit = () => {
-    onSubmit({bookName, page_count});
+    const bookToCreate: Book = {
+      name: bookName,
+      pages: page_count,
+      id: "",
+      author: author,
+    };
+    onSubmit(bookToCreate);
   };
 
   return (
@@ -32,7 +39,16 @@ export function CreateBook({onSubmit}: CreateBookProps) {
         value={page_count}
         onChange={(e) => setPageCount(+e.target.value || 0)}
       />
-      <button type="submit" onClick={onButtonSubmit}>Submit</button>
+      Author:
+      <input
+        type="text"
+        name="author"
+        value={author}
+        onChange={(e) => setAuthor(e.target.value)}
+      />
+      <button type="submit" onClick={onButtonSubmit}>
+        Submit
+      </button>
     </>
   );
 }
