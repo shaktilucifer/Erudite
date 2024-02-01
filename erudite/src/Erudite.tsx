@@ -12,7 +12,7 @@ export interface PageInfo {
   end: number;
 }
 
-interface EruditeProps {
+export interface EruditeProps {
   dailyBookData?: DailyBookData[]; // make this unoptional
 }
 
