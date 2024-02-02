@@ -3,7 +3,7 @@ const ROUTES = [{
 }];
 
 enum ROUTE_TYPE {
-    MAIN,
+    HOME,
     DAILY_ENTRY,
     BOOK_ENTRY,
     BOOK_LIST

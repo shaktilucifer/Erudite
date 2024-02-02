@@ -42,8 +42,6 @@ app.get("/getBookByName", (req, res) => {
 
 app.post("/createBook", (req, res) => {
 //   curl -d '{"MyKey":"My Value"}' -H "Content-Type: application/json" http://127.0.0.1:3001/
-// {"MyKey":"My Value"}
-  console.log(req);
   books.push(req.body.book);
   // save to db
   res.json({ test: "book created!" });
