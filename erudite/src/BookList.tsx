@@ -17,7 +17,7 @@ export function BookList() {
     <>
       <div>
         {books.map((book) => (
-          <div>{book.name}</div>
+          <div key={book.name}>{book.name}</div>
         ))}
       </div>
     </>
