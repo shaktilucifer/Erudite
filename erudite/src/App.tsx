@@ -3,6 +3,8 @@ import { DailyBookData, Erudite } from "./Erudite.tsx";
 import { BookDataEntryForm } from "./BookEntryForm.tsx";
 import { CreateBook } from "./CreateBook.tsx";
 import { useState } from "react";
+import { Book } from "./hooks/useCreateBook.ts";
+import { BookList } from "./BookList.tsx";
 
 function App() {
   const [dailyBookData, setDailyBookData] = useState<DailyBookData[]>([]);
@@ -12,7 +14,9 @@ function App() {
         <Erudite dailyBookData={dailyBookData} />
       </div>
       <div>
-        <CreateBook />
+        <CreateBook onSubmit={function (book: Book): void {
+          throw new Error("Function not implemented.");
+        } } />
       </div>
       <div>
         <BookDataEntryForm
@@ -20,6 +24,9 @@ function App() {
             setDailyBookData([dailyBookData]);
           }}
         />
+      </div>
+      <div>
+      <BookList />
       </div>
     </>
   );
