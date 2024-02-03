@@ -8,7 +8,9 @@ interface BookListProps {
 export function BookList() {
   const [books, setBooks] = useState<Book[]>([]);
   useEffect(() => {
-    fetch("http://localhost:3001/getAllBooks")
+    fetch("/api/getAllBooks", {  headers:{
+        "accepts":"application/json"
+    }})
       .then((response) => response.json())
       .then((data) => setBooks(data.books));
   }, []);
