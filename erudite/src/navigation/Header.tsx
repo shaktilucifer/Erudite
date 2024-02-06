@@ -13,13 +13,7 @@ export function Header({}: HeaderProps) {
           <a href="/home">Home</a>
         </li>
         <li>
-          <a href="/home1">Home</a>
-        </li>
-        <li>
-          <a href="/home2">Home2</a>
-        </li>
-        <li>
-          <a href="/home3">Home3</a>
+          <a href="/addBooks">Add book</a>
         </li>
       </ul>
     </>
