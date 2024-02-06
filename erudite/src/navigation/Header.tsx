@@ -12,6 +12,15 @@ export function Header({}: HeaderProps) {
         <li>
           <a href="/home">Home</a>
         </li>
+        <li>
+          <a href="/home1">Home</a>
+        </li>
+        <li>
+          <a href="/home2">Home</a>
+        </li>
+        <li>
+          <a href="/home3">Home</a>
+        </li>
       </ul>
     </>
   );
