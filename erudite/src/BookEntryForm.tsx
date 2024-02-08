@@ -3,10 +3,11 @@ import "./BookEntryForm.less";
 import { DailyBookData } from "./Erudite";
 
 export interface BookDataEntryFormProps {
-  onSubmit: (dailyBookData: DailyBookData) => void;
+  onSubmit?: (dailyBookData: DailyBookData) => void;
 }
 
 export function BookDataEntryForm({onSubmit}: BookDataEntryFormProps) {
+
   const [bookInfo, setBookInfo] = useState<DailyBookData>({
     name: "",
     id: 0,
@@ -14,8 +15,9 @@ export function BookDataEntryForm({onSubmit}: BookDataEntryFormProps) {
     date: ''
   });
 
+
   const onFormSubmit = useCallback(() => {
-      onSubmit(bookInfo);
+      onSubmit?.(bookInfo);
       return bookInfo;
   }, [bookInfo])
 

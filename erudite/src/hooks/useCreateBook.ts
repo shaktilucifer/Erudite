@@ -1,4 +1,5 @@
 import { useCallback } from "react";
+import { ApiClient } from "../utils/ApiClient";
 
 export interface Book {
   name: string;
@@ -10,12 +11,8 @@ export interface Book {
 
 export function useCreateBook() {
   return useCallback((book: Book) => {
-    return createBookApi().then((book: Book[]) => {
+    return new ApiClient().post('/createBook').then((book: Book[]) => {
       return book;
     });
   }, []);
-}
-
-function createBookApi(): Promise<Book[]> {
-  return new Promise((resolve, reject) => resolve({} as any));
 }

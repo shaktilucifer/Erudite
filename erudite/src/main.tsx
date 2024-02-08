@@ -10,7 +10,6 @@ import {
 import "./index.css";
 import { BookList } from "./BookList.tsx";
 import { BookDataEntryForm } from "./BookEntryForm.tsx";
-import { DailyBookData } from "./Erudite.tsx";
 import { CreateBook } from "./CreateBook.tsx";
 import { Book } from "./hooks/useCreateBook.ts";
 
@@ -22,11 +21,7 @@ const router = createBrowserRouter(
       <Route
         path="/daily"
         element={
-          <BookDataEntryForm
-            onSubmit={function (dailyBookData: DailyBookData): void {
-              throw new Error("Function not implemented.");
-            }}
-          />
+          <BookDataEntryForm  />
         }
       />
       <Route

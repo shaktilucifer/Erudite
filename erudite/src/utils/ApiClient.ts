@@ -9,7 +9,7 @@ export class ApiClient {
 
   put() {}
 
-  post() {}
+  post(url: string) {}
 
   delete() {}
 }
