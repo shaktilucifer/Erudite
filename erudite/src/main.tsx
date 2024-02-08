@@ -17,15 +17,28 @@ import { Book } from "./hooks/useCreateBook.ts";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <>
-      <Route path='/' element={<App />} />
+      <Route path="/" element={<App />} />
       <Route path="/books" element={<BookList />} />
-      <Route path="/daily" element={<BookDataEntryForm onSubmit={function (dailyBookData: DailyBookData): void {
-        throw new Error("Function not implemented.");
-      } } />} />
-      <Route path='/addBooks' element={<CreateBook onSubmit={function (book: Book): void {
-        throw new Error("Function not implemented.");
-      } } />} />
-
+      <Route
+        path="/daily"
+        element={
+          <BookDataEntryForm
+            onSubmit={function (dailyBookData: DailyBookData): void {
+              throw new Error("Function not implemented.");
+            }}
+          />
+        }
+      />
+      <Route
+        path="/addBooks"
+        element={
+          <CreateBook
+            onSubmit={function (book: Book): void {
+              throw new Error("Function not implemented.");
+            }}
+          />
+        }
+      />
     </>
   )
 );
