@@ -11,7 +11,6 @@ import "./index.css";
 import { BookList } from "./BookList.tsx";
 import { BookDataEntryForm } from "./BookEntryForm.tsx";
 import { CreateBook } from "./CreateBook.tsx";
-import { Book } from "./hooks/useCreateBook.ts";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -27,11 +26,7 @@ const router = createBrowserRouter(
       <Route
         path="/addBooks"
         element={
-          <CreateBook
-            onSubmit={function (book: Book): void {
-              throw new Error("Function not implemented.");
-            }}
-          />
+          <CreateBook />
         }
       />
     </>

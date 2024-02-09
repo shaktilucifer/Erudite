@@ -1,11 +1,11 @@
 // Create book entry with isbn and other details
 // select books from this to be shown in book Entry form
-import React, { useState } from "react";
+import { useState } from "react";
 import "./CreateBook.less";
 import { Book } from "./hooks/useCreateBook";
 
 interface CreateBookProps {
-  onSubmit: (book: Book) => void;
+  onSubmit?: (book: Book) => void;
 }
 
 export function CreateBook({ onSubmit }: CreateBookProps) {
