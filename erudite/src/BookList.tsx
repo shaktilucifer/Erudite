@@ -11,7 +11,12 @@ export function BookList({ filter }: BookListProps) {
     <>
       <div>
         {books.filter(filter).map((book) => (
-          <div key={book.name}>{book.name}</div>
+          <div key={book.name}>
+            <div>{book.name}</div>
+            <div>{book.author}</div>
+            <div>{book.ISBN}</div>
+            <div>{book.pages}</div>
+          </div>
         ))}
       </div>
     </>
