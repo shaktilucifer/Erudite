@@ -16,7 +16,8 @@ const router = createBrowserRouter(
   createRoutesFromElements(
     <>
       <Route path="/" element={<App />} />
-      <Route path="/books" element={<BookList />} />
+      {/* // addd filter */}
+      <Route path="/books" element={<BookList filter={undefined} />} />
       <Route
         path="/daily"
         element={
